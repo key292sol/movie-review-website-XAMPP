@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	background: #111111;
+	color: #fefefe;
+}
+
+.header{
+	width: calc(100% - 20px);
+	height:30px;
+	background-color: #000000;
+	padding: 10px;
+	border-bottom: 1px solid red;
+}
+
+.my-logo {
+	float: left;
+	width: 9em;
+}
+
+.my-logo img{
+	height: 100%;
+	float: left;
+}
+
+.searcher{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.searcher input{
+	height: 100%;
+	border: none;
+	border-radius: 7px;
+	padding: 0 0.8em;
+	margin-left: 0.7em;
+}
+
+.searcher input[type=submit]{
+	cursor: pointer;
+	background: #50bcec;
+	border: 1px solid blue;
+}
+
+.searcher input[type=text]{
+	width: 17em;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid red;
+	outline: none;
+	color: #50bcec;
+}
+
+.headerbutton{
+	cursor: pointer;
+	height:100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: transparent;
+	color: white;
+	border: none;
+	outline: none;
+}
+
+.headerbutton:hover{
+	color: #50bcec;
+	text-decoration: underline;
+}
+
+.searcher input[type=submit]:hover{
+	background: #2e9aca;
+}
+

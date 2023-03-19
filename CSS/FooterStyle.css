@@ -1,0 +1,95 @@
+footer{
+	position: all;
+	bottom: 0;
+	margin-top: 3em;
+	background: #000000;
+}
+
+.footer-body{
+	margin: 2em 4.5em;
+	display: inline-flex;
+}
+
+.about-us, .social-media, .pages{
+	width: 38%;
+	opacity: 0.6;
+	font-size: 13pt;
+	font-family: Arial;
+	margin-right: 1%;
+	padding: 0.5em;
+}
+
+.social-media ul{
+	padding: 0;
+	padding-left: 1em;
+	margin: 0;
+	margin-top: 0.5em;
+}
+
+.pages ul{
+	margin: 0.2em;
+	padding: 0;
+}
+
+.pages ul li{
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.social-media ul li, .pages ul li{
+	margin-top: 0.1em;
+}
+
+.social-media ul li a, .pages ul li a{
+	color: #ffffff;
+}
+
+.social-media ul li a, .goto-top a, .pages ul li a{
+	text-decoration: none;
+}
+
+.goto-top{
+	position: absolute;
+	right: 0;
+	margin-top: -1.3em;
+	margin-right: 2em;
+	text-align: right;
+	font-size: 12pt;
+	z-index: 1;
+}
+
+.goto-top a{
+	font-size: 16pt;
+	color: #c3e0d2;
+	opacity: 1;
+}
+
+.pages ul li a:hover{
+	text-decoration: underline;
+}
+
+.footer-searcher{
+	margin-top: 1em;
+	height: 2em;
+}
+
+.footer-searcher input{
+	height: 100%;
+	padding: 0.5em;
+	border: none;
+	border-radius: 0.5em;
+	margin-right: 0.5em;
+	background: #ffffff;
+	opacity: 1;
+}
+
+.footer-searcher input[type=text]{
+	width: 20em;
+}
+
+.footer-searcher input[type=submit]{
+	cursor: pointer;
+	padding: 0.5em 1em;
+	border-radius: 2em;
+	background: #c0d78c;
+}

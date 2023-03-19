@@ -1,0 +1,53 @@
+body{
+	background: #000000;
+	color: #ffffff;
+}
+
+h1{
+	font-size: 100;
+	margin: 0;
+}
+
+.centerhead{
+	position: absolute;
+	background: #000000;
+	color: #50bcec;
+	left:50%;
+	-ms-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+}
+
+.centerdiv{
+	width: 500px;
+	position: absolute;
+	background: #000000;
+	top: 60%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.formholder{
+	width: 100%;
+}
+
+.buttdiv{
+	padding: 10px;
+	width: 100%;
+}
+
+button{
+	cursor: pointer;
+	width: 300px;
+	padding: 6px;
+	font-size: 35;
+	border-radius: 50px;
+	background: #c0d78c;
+	border: none;
+	color: #050505;
+	outline: none;
+}
+
+button:hover{
+	background: #7c9349;
+}

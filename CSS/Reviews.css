@@ -1,0 +1,95 @@
+.all-reviews{
+	position: relative;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.review-body{
+	background: #111111;
+	color: #fefefe;
+	padding: 0.7em;
+	padding-bottom: 0.7em;
+	margin-bottom: 0.5em;
+	border: 0.05em solid #c3e0d2;
+}
+
+.rev-acc{
+	margin-bottom: 0.5em;
+	height: 2.5em;
+}
+
+.acc-img{
+	float: left;
+}
+
+.acc-img img{
+	margin: 0;
+	margin-right: 0.7em;
+	height: 100%;
+	width: 2.5em;
+	border-radius: 50%;
+}
+
+.rev-username, .rev-date{
+	margin: 0;
+}
+
+.rev-username{
+	height: 50%;
+	font-size: 100%;
+}
+
+.rev-date{
+	font-size: 80%;
+	margin-top: 3px;
+}
+
+.review{
+	margin-top: 0.5em;
+	margin-left: 0.2em;
+}
+
+.enter-review{
+	width: 100%;
+}
+
+.enter-review form textarea{
+	background: #000000;
+	color: #50bcec;
+	width: 100%;
+	height: 5em;
+	padding: 0.2em 0.5em;
+	margin-bottom: 0.5em;
+	border: 1px solid #50bcec;
+	outline: none;
+	resize: none;
+}
+
+.enter-review form input[type=submit]{
+	text-align: center;
+	width: 6em;
+	height: 2em;
+	background-color: #50bcec;
+	border: none;
+	border-radius: 1.3em;
+}
+
+.rate-slider{
+	margin: 0 0.4em;
+	width: 15em;
+	height: 0.7em;
+}
+
+.enter-review form div{
+	margin-top: 0.5em;
+}
+
+.delete-rev-button{
+	cursor: pointer;
+	float: right; 
+	top: 0;
+}
+
+.delete-rev-button:hover{
+	color: #50bcec;
+}

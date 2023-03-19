@@ -1,0 +1,69 @@
+.section{
+	position: relative;
+}
+
+.section h1{
+	margin: 0;
+	border-bottom: 2px solid #50bcec;
+}
+
+.flex-container{
+	margin: 0;
+	margin-right: 0.5em;
+	margin-bottom: 1.5em;
+}
+
+.flex-content{
+	width: 100%;
+	display: inline-flex;
+	overflow: auto;
+}
+
+.left-arrow, .right-arrow{
+	cursor: pointer;
+	position: absolute;
+	padding: 1em;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 50%;
+	background: #50bcec;
+	opacity: 0.4;
+}
+
+.left-arrow{
+	left: -1em;
+}
+
+.right-arrow{	
+	right: -1em;
+}
+
+.left-arrow div, .right-arrow div{
+	width: 1.5em;
+	height: 1.5em;
+	font-size: 18pt;
+	line-height: 1.5em;
+	color: #000000;
+}
+
+.left-arrow:hover, .right-arrow:hover{
+	opacity: 0.8;
+}
+
+.flex-container.slide-left{
+	-webkit-animation-name: sl;
+	-webkit-animation-duration: 2s;
+	animation-name: sl;
+	animation-duration: 2s;
+}
+
+@-webkit-@keyframes sl{
+	from{ right: 0%; }
+	to{ right: 100%; }
+}
+
+@keyframes sl{
+	from{ right: 0%; }
+	to{ right: 100%; }
+}

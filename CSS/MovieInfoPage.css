@@ -1,0 +1,87 @@
+.body center h1{
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #c3e0d2;
+}
+
+.trailerandposter{ 
+	width: 100%;
+	height: 23.5em;
+	margin-bottom: 1.5em;
+}
+
+.trailerandposter img, .trailerandposter video{
+	margin: 20px 0;
+	border: 1px solid #50dcec;
+	height: 100%;
+	background: #000000;
+}
+
+.trailerandposter img{
+	margin-left: 1.3em;
+}
+
+.movie-infos{
+	display: inline-block;
+	width: 100%;
+}
+
+.movie-info-1{
+	width: 70%;
+	margin-right: 1em;
+	float: left;
+}
+
+.movie-info-2{
+	min-width: 2%;
+	float: left;
+}
+
+.movie-info-1 b, .movie-info-2 b{
+	margin-right: 0.2em;
+	padding-bottom: 5em;
+}
+
+.movie-desc, .for-reviews{
+	width: 100%;
+	margin-top: 1.5em;
+}
+
+.movie-desc h2, .for-reviews h2{
+	margin:0;
+	border-bottom: 0.5px solid #fefefe;
+	margin-bottom: 0.2em;
+}
+
+.movie-desc p{
+	margin-top: 0;
+}
+
+.for-reviews{
+	margin-top: 0;
+}
+
+.for-reviews h2{
+	margin-bottom: 0.5em;
+}
+
+.list-buttons-div{
+	position: relative;
+	margin-top: 1em;
+}
+
+.list-button{
+	cursor: pointer;
+	width: 10em;
+	margin: 0 1em;
+	height: 2em;
+	font-size: 20pt;
+	border: none;
+	border-radius: 1em;
+	background: orange;
+}
+
+.list-button:hover{
+	background: #50bcec;
+}

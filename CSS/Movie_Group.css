@@ -1,0 +1,50 @@
+body{
+	color: #fefefe;
+}
+
+.grid-body{
+	width: 100%;
+	display: inline-table;
+}
+
+.grid-header{
+	margin: 0.4em 0.5em;
+	margin-left: 0.5em;
+	padding-bottom: 0.1em;
+	border-bottom: 2px solid #50bcec;
+}
+
+.grid{
+	padding-left: 0.5em;
+}
+
+.one-genre{
+	cursor: pointer;	
+	width: 11.1em;
+	float: left;
+	margin: 0.8em;
+	background: #000000;
+	border: 1px solid #fefefe;
+}
+
+.genre-poster img {
+	height: 16em;
+	width: 11.1em;
+	border: none;
+	border-bottom: 1px solid #fefefe;
+}
+
+.genre-name{
+	padding: 0.3em;
+	color: #50bcec;
+	text-align: center;
+	text-anchor: middle;
+	font-size: 13pt;
+	max-height: 1em;
+	overflow: hidden;
+}
+
+.one-genre:hover, .one-genre:hover .genre-poster{
+	text-decoration: underline;
+	opacity: 0.6;
+}

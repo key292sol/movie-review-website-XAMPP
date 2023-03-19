@@ -1,0 +1,128 @@
+.slideshow-hold{
+	width: 74%;
+	border: 2px solid #50bcec;
+	background: #000000;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.slideshow-hold>h1{
+	font-size: 30pt;
+	margin: 0;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+
+.slideshow{
+	background: #070707;
+	width: 100%;
+	border-top: 2px solid #50bcec;
+	border-bottom: 2px solid #50bcec;
+}
+
+.slides-container{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide-text{
+	position: relative;
+	width: 100%;
+	margin: 0;
+	font-size: 23pt;
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.slides{
+	cursor: pointer;
+	height: 25em;
+	width: 100%;
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1s;
+	animation-name: fade;
+	animation-duration: 5s;
+}
+
+.slidefadeout{
+	animation-name: fadeout;
+	animation-duration: 0.5s;
+}
+
+.slides img{
+	max-width: 100%;
+	max-height: 100%;
+	position: relative;
+}
+
+.prev, .next{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	color: rgba(255,255,255, 0.3);
+	font-size: 50pt;
+	padding: 0.2em;
+	border-radius: 0 0.2em 0.2em 0;
+	transform: translateY(-50%);
+}
+
+.prev{
+	left: 0;
+}
+
+.next{
+	right: 0;
+	border-radius: 0.2em 0 0 0.2em;
+}
+
+.prev:hover, .next:hover{
+	color: rgba(255,255,255, 1);
+	background: #777777;
+	opacity: 0.5;
+}
+
+.dots-holder{
+	height: 1.1em;
+	padding: 0.7em;
+}
+
+.dot{
+	cursor: pointer;
+	margin-right: 0.5em;
+	width: 1em;
+	height: 1em;
+	background: #777777;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.dotsactive{
+	width: 1.1em;
+	height: 1.1em;
+	background: #ffffff;
+}
+
+@-webkit-keyframes fade {
+	0%{	opacity: 0;	}
+	10%, 90%{ opacity: 1; }
+	100%{ opacity: 0; }
+}
+
+@keyframes fade {
+	0%{ opacity: 0; }
+	10%, 90%{ opacity: 1; }
+	100%{ opacity: 0; }
+}
+
+@-webkit-keyframes fadeout {
+	0%{ opacity: 1; }
+	100%{ opacity: 0; }
+}
+
+@keyframes fadeout {
+	0%{ opacity: 1; }
+	100%{ opacity: 0; }
+}

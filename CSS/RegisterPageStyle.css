@@ -1,0 +1,55 @@
+body{
+	background: #222222;
+}
+
+legend, label{
+	color: #fefefe;
+}
+
+.headpara{
+	font-size: 40;
+	margin: 10;	
+	color: #fefefe;
+}
+
+.headdiv{
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%, 0%);	
+}
+
+.bigformclass input{
+	outline: none;
+	width: 280px;
+	height:30px; 
+	font-size:12pt; 
+	padding:3px 6px;
+	background: transparent;;
+	border: none;
+	border-bottom: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.content{
+	max-width:320px;
+	padding: 40px;
+	background: #000000;
+	position: absolute;
+	top:50%;
+	left:50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+	
+.submitbutton{
+	cursor: pointer;
+	width: 320px;
+	height:37px; 
+	border: none;
+	font-size:12pt; 
+	background: #37474f;
+	border-radius: 4px;
+	color: white;
+	margin-bottom: 5px;
+}

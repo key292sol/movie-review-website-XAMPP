@@ -1,0 +1,65 @@
+input{
+	outline: none;
+	width: 100%;
+	height:30px; 
+	font-size:12pt; 
+	padding:3px 6px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #ffffff;
+	color: #ffffff;
+	margin-bottom: 5px;
+}
+
+button{
+	padding: 0px;
+	outline: none;
+	background: transparent;
+	border: none;
+	color: #fefefe;
+}
+
+p{
+	margin: 0;
+	margin-top: -0.4em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-size: 37pt;
+	color: #fefefe;
+}
+
+#errdiv{
+	height: 20px;
+	color: #c0d78c;
+	padding-left: 5px;
+	font-size: 12pt;
+}
+
+.signinbutton{
+	float: right;
+}
+
+.forgotpassbutton{
+	float: left;
+}
+	
+.submitbutton{
+	margin-top: 25px;
+	width: 280px;
+	height:35px; 
+	border: none;
+	font-size:12pt; 
+	background: #37474f;
+	border-radius: 4px;
+	color: white;
+}
+
+.submitbutton:hover{
+	background: #25353d;
+}
+
+.forgotpassbutton:hover, .signinbutton:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	color: #50bcec;
+}
